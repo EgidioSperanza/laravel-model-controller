@@ -12,7 +12,7 @@
             <p class="card-text">Original Title</p>
             <h5 class="card-title">{{$movie->original_title}}</h5>
             <p class="card-text">Nation: {{$movie->nationality}}</p>
-            <p class="card-text">{{$movie->date}}</p>
+            <p class="card-text">{{date('d-m-Y', strtotime($movie->date))}}</p>
             <p class="card-text">Vote:
                 @for ( $i=0; $i<5; $i++)
                     @if ($movie->vote/2 - $i >= 1)
