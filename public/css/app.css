@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@import url(https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css);@charset "UTF-8";
 
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
@@ -12174,11 +12174,17 @@ fieldset:disabled .btn {
 }
 
 body {
-  background-color: slategrey;
+  background-color: #000;
 }
 
 .card {
   width: 320px;
   min-height: 400px;
+  background-color: #333;
+  color: #FFF;
+}
+
+.card-text > i {
+  color: #b6870f;
 }
 

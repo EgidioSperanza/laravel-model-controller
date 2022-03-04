@@ -1,7 +1,12 @@
 body{
-    background-color: slategrey;
+    background-color: #000;
 }
 .card{
     width: 320px;
     min-height: 400px;
+    background-color: #333;
+    color: #FFF;
+}
+.card-text > i{
+    color: rgb(182, 135, 15);
 }
