@@ -12173,7 +12173,12 @@ fieldset:disabled .btn {
   }
 }
 
-.ciaone {
-  color: red;
+body {
+  background-color: slategrey;
+}
+
+.card {
+  width: 320px;
+  min-height: 400px;
 }
 
