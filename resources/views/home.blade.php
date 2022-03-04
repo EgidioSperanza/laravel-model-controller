@@ -17,7 +17,7 @@
                 @for ( $i=0; $i<5; $i++)
                     @if ($movie->vote/2 - $i >= 1)
                     <i class="bi bi-star-fill"></i>
-                    @elseif ($movie->vote/2 - $i > 0 && $movie->vote/2 - $i < 1)
+                    @elseif ($movie->vote/2 - $i > 0.4 && $movie->vote/2 - $i < 1)
                     <i class="bi bi-star-half"></i>
                     @else 
                     <i class="bi bi-star"></i>
